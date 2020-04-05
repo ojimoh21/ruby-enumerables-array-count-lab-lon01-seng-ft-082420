@@ -1,5 +1,4 @@
 def count_strings(array)
-  total = 0
 array.count {|element|
   element.class == String}
 end
