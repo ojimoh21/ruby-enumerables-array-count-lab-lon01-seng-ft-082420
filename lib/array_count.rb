@@ -1,11 +1,5 @@
 def count_strings(array)
-  total = 0 
-  array.count do |index|
-    if index.class == String
-      total += 1
-  end 
-    total 
-  end 
+array.count do |element|
 end
 
 def count_empty_strings(array)
