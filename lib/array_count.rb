@@ -1,9 +1,9 @@
 def count_strings(array)
   total = 0 
-  array.count do |index|
+  array.count { index|
     if index.class == String
       total += index 
-    end 
+  }
     total 
 end
 
