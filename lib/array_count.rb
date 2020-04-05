@@ -4,7 +4,7 @@ end
 
 def count_empty_strings(array)
 total = 0 
-if array.count.class == String
+if array.count == " "
   total += array.count 
 end 
 total 
