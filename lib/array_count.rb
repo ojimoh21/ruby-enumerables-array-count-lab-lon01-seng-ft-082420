@@ -2,7 +2,7 @@ def count_strings(array)
   total = 0 
   array.count { |index|
     if index.class == String
-      total += index 
+      total += 1
   }
     total 
 end
@@ -10,7 +10,7 @@ end
 def count_empty_strings(array)
 total = 0 
 if array.count == " "
-  total += array.count 
+  total += 1
 end 
 total 
 end
