@@ -3,8 +3,9 @@ def count_strings(array)
   array.count do |index|
     if index.class == String
       total += 1
-  }
+  end 
     total 
+  end 
 end
 
 def count_empty_strings(array)
